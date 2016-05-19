@@ -1,5 +1,5 @@
 {
-  "name": "karma-webpack",
+  "name": "superhuman-karma-webpack",
   "version": "1.7.0",
   "author": "Tobias Koppers @sokra",
   "description": "Use webpack with karma",
