@@ -63,7 +63,7 @@ function Plugin(
 		compiler.plugin(name, function(_, callback) {
 			isBlocked = true;
 
-			if (callback) {
+			if (callback && typeof(callback) == 'function') {
 				callback();
 			}
 		})
